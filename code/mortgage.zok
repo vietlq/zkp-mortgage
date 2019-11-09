@@ -1,0 +1,7 @@
+def main(field property_price, field mortgage_years, field current_interest_rate, field retirement_age, private field down_payment, private field annual_income, private field monthly_savings, private field age) -> (bool):
+    bool valid_downpayment = (down_payment*10 >= property_price)
+    bool valid_annual_income = (annual_income*4 >= (property_price - down_payment))
+    bool valid_monthly_savings = (monthly_savings*12*mortgage_years >= 2*(property_price - down_payment))
+    bool valid_age = (age + mortgage_years + 2 <= retirement_age)
+    bool result = (valid_downpayment && valid_annual_income && valid_monthly_savings && valid_age)
+    return result
