@@ -2,6 +2,8 @@
 
 Read on `zokrates` CLI and toxic waste: https://zokrates.github.io/reference/cli.html
 
+`zokrates` types: https://zokrates.github.io/concepts/types.html
+
 zkp-mortgage
 
 Main reference: http://extropy.foundation/workshops/zkp/zokrates.html
