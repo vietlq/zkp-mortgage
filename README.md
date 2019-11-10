@@ -17,3 +17,10 @@ Inside the docker image:
 ./zokrates setup
 ./zokrates export-verifier
 ```
+
+Compute witness and generate proof after compilation and setup:
+
+```
+./zokrates compute-witness -a 500000 25 400 67 96000 101000 3000 31
+./zokrates generate-proof
+```
