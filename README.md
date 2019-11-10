@@ -4,9 +4,7 @@ Read on `zokrates` CLI and toxic waste: https://zokrates.github.io/reference/cli
 
 `zokrates` types: https://zokrates.github.io/concepts/types.html
 
-zkp-mortgage
-
-Main reference: http://extropy.foundation/workshops/zkp/zokrates.html
+Short reference: http://extropy.foundation/workshops/zkp/zokrates.html
 
 Launch the Zokrates docker image:
 
