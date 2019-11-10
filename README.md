@@ -27,4 +27,6 @@ Compute witness and generate proof after compilation and setup:
 ./zokrates generate-proof
 ```
 
-Use Remix https://remix.ethereum.org/ and paste the generated `verifier.sol`. Compile, deploy the `Verifier` contract and then run `verifyTx` using given parameters `a, b, c, and inputs` generated in the file `proof.json`
+Use Remix https://remix.ethereum.org/ and paste the generated `verifier.sol`. Compile, deploy the `Verifier` contract and then run `verifyTx` using given parameters `a, b, c, and inputs` generated in the file `proof.json`.
+
+Note that for each check one can create a separate proof using the same proving and verifying keys. Trusted set up makes it hard to reason about the whole process.
